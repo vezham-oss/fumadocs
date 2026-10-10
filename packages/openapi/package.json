@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/docs-openapi",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Generate MDX docs for your OpenAPI spec",
   "keywords": [
     "Docs",
