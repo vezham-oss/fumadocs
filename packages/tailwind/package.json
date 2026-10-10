@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/docs-tailwind",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "The Tailwind CSS utils for Fumadocs UI.",
   "keywords": [
     "Docs",

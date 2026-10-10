@@ -1,5 +1,11 @@
 ## fumadocs-typescript@5.4.0
 
+## 1.0.16
+
+### Patch Changes
+
+- [`c14077c`](https://github.com/vezham-oss/fumadocs/commit/c14077c408a45630404b88ce38b8a30d5a4de8ce) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - Preserve Markdown serializer handler metadata to prevent stack overflows when generating processed Markdown containing bold or italic text with mdast-util-to-markdown 2.1.3.
+
 ## 1.0.15
 
 ### Patch Changes
