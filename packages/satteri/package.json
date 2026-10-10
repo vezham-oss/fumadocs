@@ -13,7 +13,7 @@
   "author": "Vx OSS Devs <oss-developers@vezham.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vezham/fumadocs",
+    "url": "https://github.com/vezham-oss/fumadocs",
     "directory": "packages/satteri"
   },
   "files": [

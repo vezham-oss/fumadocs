@@ -41,7 +41,7 @@ permissions:
   pull-requests: write # PR comments
 
 env:
-  REPO: ${{ github.repository || 'vezham/fumadocs' }}
+  REPO: ${{ github.repository || 'vezham-oss/fumadocs' }}
   BRANCH: ${{ github.ref_name || 'timeline' }}
   ACTOR: ${{ github.actor || 'vx/ci' }}
   NPM_TOKEN: ${{ secrets.VX_DEPLOYER_NPM }}
