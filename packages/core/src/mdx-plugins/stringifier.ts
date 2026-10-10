@@ -114,7 +114,7 @@ export function defaultStringifier<Context = undefined>(
   } = config;
 
   function modHandler(handler: Handle, ctx: Context): Handle {
-    return function (node: Nodes, parent, state, info) {
+    const wrapped: Handle = function (node: Nodes, parent, state, info) {
       let visibility = filterElement(node);
       if (visibility === false) return '';
 
@@ -171,6 +171,9 @@ export function defaultStringifier<Context = undefined>(
           return handler(node, parent, state, info);
       }
     };
+
+    // Preserve attention and peek metadata used by Markdown's phrasing serializer.
+    return Object.assign(wrapped, handler);
   }
 
   const customToMarkdown: Options = {
