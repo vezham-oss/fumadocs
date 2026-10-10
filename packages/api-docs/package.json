@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/docs-api",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Shared utils for API docs generation",
   "keywords": [
     "Docs",

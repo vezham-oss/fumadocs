@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/docs-core",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "The React.js library for building a documentation website",
   "keywords": [
     "Docs",
